@@ -1,35 +1,23 @@
 import { StyleSheet } from "react-native";
 import React from "react";
-import { createNativeStackNavigator } from "@react-navigation/native-stack";
-import { NavigationContainer } from "@react-navigation/native";
-import ExploreScreen from "./screens/ExploreScreen";
-import ProfileScreen from "./screens/ProfileScreen";
-import RestaurantsScreen from "./screens/RestaurantsScreen";
-import RestaurantScreen from "./screens/RestaurantScreen";
-import DragSort from "./screens/DragSort";
-import * as eva from "@eva-design/eva";
+import { MyButton } from "@my-workspace/my-ui";
+
 import { ApplicationProvider, Text } from "@ui-kitten/components";
-export type RootStackParams = {
-  Restaurants: undefined;
-  Explore: undefined;
-  Profile: undefined;
-  Restaurant: {
-    name: string;
-  };
-};
-const RootStack = createNativeStackNavigator();
+import * as eva from "@eva-design/eva";
+
 const App = () => {
   return (
     <ApplicationProvider {...eva} theme={eva.light}>
-      <NavigationContainer>
-        <RootStack.Navigator>
-          <RootStack.Screen name="Explore" component={ExploreScreen} />
-          <RootStack.Screen name="Restaurants" component={RestaurantsScreen} />
-          <RootStack.Screen name="Profile" component={ProfileScreen} />
-          <RootStack.Screen name="Restaurant" component={RestaurantScreen} />
-          <RootStack.Screen name="DragSort" component={DragSort} />
-        </RootStack.Navigator>
-      </NavigationContainer>
+      <MyButton
+        bgColor="black"
+        isDisabled
+        onPress={() => { }}
+        text="this is nejah neji"
+        textColor="white"
+      />
+      <Text>
+        hello
+      </Text>
     </ApplicationProvider>
   );
 };
