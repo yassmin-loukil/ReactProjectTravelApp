@@ -45,3 +45,6 @@ This example installs a monorepo with an application using a separate custom pac
 ## 📝 Notes
 
 This example uses the configuration described in the [Expo Monorepos Guide](https://docs.expo.dev/guides/monorepos/)
+
+
+npx create-react-native-app --template https://github.com/iit-cross-platform/template-yarn-workspace-expo
