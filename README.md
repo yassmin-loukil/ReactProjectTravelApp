@@ -48,3 +48,27 @@ This example uses the configuration described in the [Expo Monorepos Guide](http
 
 
 npx create-react-native-app --template https://github.com/iit-cross-platform/template-yarn-workspace-expo
+
+
+
+terminal 1: 
+
+cd project-name
+
+yarn install --check-files
+
+yarn run build-packages
+
+yarn run watch-packages
+
+
+terminal 2:
+cd project-name
+
+npm i -g expo-cli
+cd apps/mobile && expo start --tunnel
+
+terminal 3:
+cd project-name
+
+ yarn run start-storybook
