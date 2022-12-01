@@ -23,7 +23,7 @@ export const MyButton = ({
   return (
     <>
       <Button status="danger" onPress={onPress}>
-        Button
+        click me
       </Button>
     
     </>

@@ -1,5 +1,5 @@
 {
-  "name": "@my-workspace/my-ui",
+  "name": "@mytravel-app/my-ui",
   "description": "template for react native storybook 6 and react native web",
   "version": "1.0.8",
   "files": [

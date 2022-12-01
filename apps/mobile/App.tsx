@@ -1,6 +1,6 @@
 import { StyleSheet } from "react-native";
 import React from "react";
-import { MyButton } from "@my-workspace/my-ui";
+import { MyButton } from "@mytravel-app/my-ui";
 
 import { ApplicationProvider, Text } from "@ui-kitten/components";
 import * as eva from "@eva-design/eva";
@@ -16,7 +16,7 @@ const App = () => {
         textColor="white"
       />
       <Text>
-        hello
+        hello world
       </Text>
     </ApplicationProvider>
   );

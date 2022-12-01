@@ -7,7 +7,7 @@ module.exports = async function (env, argv) {
       babel: {
         dangerouslyAddModulePathsToTranspile: [
           "@ui-kitten/components",
-          "@my-workspace/my-ui",
+          "@mytravel-app/my-ui",
         ],
       },
     },
